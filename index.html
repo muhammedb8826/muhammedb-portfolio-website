@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MB Website</title>
+    <link rel="icon" href="images/icon.png" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- navbar section -->
+    <nav
+      class="navbar navbar-expand-md navbar-dark fixed-top navbg shadow"
+      id="navs"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="#"
+          ><img src="images/my-logo.png" alt="logo" width="75px"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#nav-menu"
+        >
+          <span class=""><i class="bi bi-list"></i></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="nav-menu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link d-none d-md-block"
+                href="https://www.facebook.com/profile.php?id=100073411668330"
+                target="_blank"
+                ><i class="bi bi-facebook"></i
+              ></a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link d-none d-md-block"
+                href="https://www.linkedin.com/in/muhammed-berisso-a60783226/"
+                target="_blank"
+                ><i class="bi bi-linkedin"></i
+              ></a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link d-none d-md-block"
+                href="https://t.me/muhammedb8826"
+                target="_blank"
+                ><i class="bi bi-telegram"></i
+              ></a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link d-none d-md-block"
+                href="https://github.com/mamila2996"
+                target="_blank"
+                ><i class="bi bi-github"></i
+              ></a>
+            </li>
+            <li class="nav-item ms-3 me-4">
+              <a
+                class="nav-link btn btn-outline-primary btn-sm px-4 d-none d-md-block"
+                href="mailto:muhammedb8826@gmail.com"
+                target="_blank"
+                >Hire Me</a
+              >
+            </li>
+            <div class="darkmode">
+              <input type="checkbox" class="checkbox" id="checkbox" />
+              <label for="checkbox" class="label">
+                <i class="bi bi-moon"></i>
+                <i class="bi bi-sun"></i>
+                <div class="ball"></div>
+              </label>
+            </div>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- home page section -->
+
+    <section class="homePageSec text-md-start p-5" id="section1">
+      <div class="container">
+        <div
+          class="row g-4 flex-column-reverse flex-md-row pt-5"
+        >
+          <div class="col-md">
+            <h1>I'm<span class="text-warning mx-2">Muhammed</span>Berisso</h1>
+
+            <p class="lead mt-3 mb-4 fw-normal text-justify">
+              This is my official potfolio website to showcase my all works
+              related to web development and UI design
+            </p>
+            <a href="downloads/Muhammed Berisso - Resume .pdf" download=""
+              ><button class="btn btn-outline-primary btn-lg">
+                Download CV
+              </button></a
+            >
+          </div>
+          <div class="col-md text-md-end text-center img-animation">
+            <!-- animation -->
+            <div class="animation-container">
+            <div class="ring"></div>
+            <div class="ring"></div>
+            <div class="ring"></div>
+            </div>
+            <div class="profile-image">
+             <img
+              class="img-thumbnail"
+              src="images/mame-3x4.JPG"
+              alt="homeimage"
+            /> 
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- back to top button -->
+    <section>
+      <div class="" id="backToTop">
+        <button onclick="gotoTop()" id="toTopButton">
+          <i class="bi bi-arrow-up-circle"></i>
+        </button>
+      </div>
+    </section>
+
+    <!-- about me section -->
+
+    <section class="first-section p-4">
+      <div class="container">
+        <a href="#" class="nav-link mb-3"
+          ><i class="bi bi-dash-lg"></i>About Me</a
+        >
+        <div class="row align-items-center justify-content-between">
+          <div class="col-md">
+            <div class="progress-title mb-3">
+              <h5><i class="bi bi-filetype-html me-2"></i>Web Design</h5>
+              <div class="progress">
+                <div class="progress-bar" style="width: 80%">
+                  <div class="progress-value">80%</div>
+                </div>
+              </div>
+            </div>
+            <div class="progress-title mb-3">
+              <h5><i class="bi bi-filetype-css me-2"></i>UI design</h5>
+              <div class="progress">
+                <div class="progress-bar" style="width: 85%">
+                  <div class="progress-value">85%</div>
+                </div>
+              </div>
+            </div>
+            <div class="progress-title mb-3">
+              <h5><i class="bi bi-filetype-js me-2"></i>PHP,JS,JQuery,Node Js,ECMA Script</h5>
+              <div class="progress">
+                <div class="progress-bar" style="width: 70%">
+                  <div class="progress-value">70%</div>
+                </div>
+              </div>
+            </div>
+            <div class="progress-title mb-3">
+              <h5><i class="bi bi-filetype-jsx me-2"></i>React Js, Angular</h5>
+              <div class="progress">
+                <div class="progress-bar" style="width: 75%">
+                  <div class="progress-value">75%</div>
+                </div>
+              </div>
+            </div>
+            <div class="progress-title mb-3">
+              <h5>Adobe Photoshop, Illustrator</h5>
+              <div class="progress">
+                <div class="progress-bar" style="width: 90%">
+                  <div class="progress-value">90%</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md p-4">
+            <h2>Learn The Fundamentals</h2>
+            <p class="lead">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam,
+              molestiae recusandae! Exercitationem labore nulla accusamus
+              doloribus. Sed, ex! Esse incidunt adipisci vel explicabo,
+              perspiciatis amet placeat sunt quaerat molestias quam.
+            </p>
+            <div class="text-center">
+              <a href="downloads/Muhammed Berisso - Resume .pdf" download=""
+                ><button
+                  class="btn btn-outline-primary btn-lg mt-3"
+                  style="width: 200px"
+                >
+                  Download CV
+                </button></a
+              >
+              <a href="mailto:muhammedb8826@gmail.com"
+                ><button
+                  class="btn btn-primary btn-lg ms-2 mt-3"
+                  style="width: 200px"
+                >
+                  Hire me
+                </button></a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- services section -->
+
+    <section class="p-5 servicesSec">
+      <div class="container">
+        <a href="#" class="nav-link mb-3"
+          ><i class="bi bi-dash-lg"></i>Services</a
+        >
+        <h2 class="pb-5">What's Services I Offer</h2>
+        <div class="row text-center g-4">
+          <div class="col-md">
+            <div class="card bg-dark text-light">
+              <div class="card-body text-center">
+                <div class="h1 mb-3">
+                  <i class="bi bi-menu-app"></i>
+                </div>
+                <h3 class="card-title mb-3">UI Research</h3>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
+                  eligendi possimus, quidem magni sed nemo! Soluta est ipsam
+                  asperiores ab cum, totam voluptate velit saepe fugiat
+                  laboriosam porro ullam optio!
+                </p>
+                <a href="#" class="btn btn-primary">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card bg-secondary text-light">
+              <div class="card-body text-center">
+                <div class="h1 mb-3">
+                  <i class="bi bi-code-slash"></i>
+                </div>
+                <h3 class="card-title mb-3">Web Development</h3>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
+                  eligendi possimus, quidem magni sed nemo! Soluta est ipsam
+                  asperiores ab cum, totam voluptate velit saepe fugiat
+                  laboriosam porro ullam optio!
+                </p>
+                <a href="#" class="btn btn-dark">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card bg-dark text-light">
+              <div class="card-body text-center">
+                <div class="h1 mb-3">
+                  <i class="bi bi-intersect"></i>
+                </div>
+                <h3 class="card-title mb-3">Interface Design</h3>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
+                  eligendi possimus, quidem magni sed nemo! Soluta est ipsam
+                  asperiores ab cum, totam voluptate velit saepe fugiat
+                  laboriosam porro ullam optio!
+                </p>
+                <a href="#" class="btn btn-primary">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+    <section class="ps-5 pe-5 pb-5 servicesSec">
+      <div class="container">
+        <div class="row text-center g-4">
+          <div class="col-md">
+            <div class="card bg-dark text-light">
+              <div class="card-body text-center">
+                <div class="h1 mb-3">
+                  <i class="bi bi-laptop"></i>
+                </div>
+                <h3 class="card-title mb-3">Branding Design</h3>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
+                  eligendi possimus, quidem magni sed nemo! Soluta est ipsam
+                  asperiores ab cum, totam voluptate velit saepe fugiat
+                  laboriosam porro ullam optio!
+                </p>
+                <a href="#" class="btn btn-primary">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card bg-secondary text-light">
+              <div class="card-body text-center">
+                <div class="h1 mb-3">
+                  <i class="bi bi-person-square"></i>
+                </div>
+                <h3 class="card-title mb-3">SEO Optimizing</h3>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
+                  eligendi possimus, quidem magni sed nemo! Soluta est ipsam
+                  asperiores ab cum, totam voluptate velit saepe fugiat
+                  laboriosam porro ullam optio!
+                </p>
+                <a href="#" class="btn btn-dark">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card bg-dark text-light">
+              <div class="card-body text-center">
+                <div class="h1 mb-3">
+                  <i class="bi bi-people"></i>
+                </div>
+                <h3 class="card-title mb-3">Fast Support</h3>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
+                  eligendi possimus, quidem magni sed nemo! Soluta est ipsam
+                  asperiores ab cum, totam voluptate velit saepe fugiat
+                  laboriosam porro ullam optio!
+                </p>
+                <a href="#" class="btn btn-primary">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="second-section p-5">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-md">
+            <img src="images/bg1.jpg" alt="home" class="img-fluid" />
+          </div>
+          <div class="col-md p-5">
+            <h2>Learn The Fundamentals</h2>
+            <p class="lead">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam,
+              molestiae recusandae! Exercitationem labore nulla accusamus
+              doloribus. Sed, ex! Esse incidunt adipisci vel explicabo,
+              perspiciatis amet placeat sunt quaerat molestias quam.
+            </p>
+            <a href="#" class="btn btn-light mt-3"
+              ><i class="bi bi-chevron-right"></i>Read More</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="third-section p-5">
+      <div class="container">
+        <div
+          class="row align-items-center justify-content-between flex-column-reverse flex-md-row"
+        >
+          <div class="col-md p-5">
+            <h2>Learn The Fundamentals</h2>
+            <p class="lead">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam,
+              molestiae recusandae! Exercitationem labore nulla accusamus
+              doloribus. Sed, ex! Esse incidunt adipisci vel explicabo,
+              perspiciatis amet placeat sunt quaerat molestias quam.
+            </p>
+            <a href="#" class="btn btn-light mt-3"
+              ><i class="bi bi-chevron-right"></i>Read More</a
+            >
+          </div>
+          <div class="col-md">
+            <img src="images/bg2.jpg" alt="home" class="img-fluid" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!-- testimonials  -->
+  <section class="testimonials">
+<div class="">
+  
+</div>
+  </section>
+
+    <!-- footer section -->
+    <section class="footer p-5">
+      <a href="#" class="nav-link mb-3"
+          ><i class="bi bi-dash-lg"></i>Getin Touch</a
+        >
+      <div class="container">
+        <div class="row d-flex justify-content-between">
+          <div
+            class="col-12 col-sm-12 col-md-6 mb-5 d-flex justify-content-center align-items-center flex-column"
+          >
+            <h1 class="mb-5">Let's Talk</h1>
+            <h4 class="mt-5 mb-5"><span>mbinfo8826@gmail.com</span></h4>
+            <h4 class="mb-5">whatsapp: +251905078826</h4>
+            <div
+              class="mt-5"
+            >
+              <h4 class="m-2">Follow me
+
+              <span class="m-2">
+                <a
+                  href="https://www.linkedin.com/in/muhammed-berisso-a60783226/"
+                  target="_blank"
+                  class="btn btn-primary btn-sm"
+                  ><i class="bi bi-linkedin"></i
+                ></a>
+                <a
+                  href="https://www.facebook.com/profile.php?id=100073411668330"
+                  target="_blank"
+                  class="btn btn-primary btn-sm"
+                  ><i class="bi bi-facebook"></i
+                ></a>
+                <a
+                  href="https://www.instagram.com/mamila2996/"
+                  target="_blank"
+                  class="btn btn-primary btn-sm"
+                  ><i class="bi bi-instagram"></i
+                ></a>
+                <a
+                  href="https://t.me/muhammedb8826"
+                  target="_blank"
+                  class="btn btn-primary btn-sm"
+                  ><i class="bi bi-telegram"></i
+                ></a>
+              </span>
+            </h4>
+            </div>
+          </div>
+          <div
+            class="col-12 col-sm-12 col-md-6 d-flex justify-content-center align-items-center flex-column"
+          >
+            <h1 class="mb-5">Let Me Know Here</h1>
+            <div class="form">
+              <input type="text" name="name" autocomplete="off" />
+              <label for="name" class="label-name">
+                <span class="content-name">Your full name</span>
+              </label>
+            </div>
+            <div class="form mt-5">
+              <input type="text" name="name" autocomplete="off" />
+              <label for="name" class="label-name">
+                <span class="content-name">Your email</span>
+              </label>
+            </div>
+            <div class="formt mt-5">
+              <input type="textarea" name="name" autocomplete="off" />
+              <label for="name" class="label-name">
+                <span class="content-name">Your message</span>
+              </label>
+            </div>
+            <div class="forms mt-5 d-flex">
+              <input type="file" name="file-load" id="file-load" />
+              <label for="file-load"
+                ><span><i class="bi bi-paperclip">Attach File</i></span></label
+              >
+              <button class="btn btn-outline-primary m-2">send</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- audio -->
+    <audio autoplay>
+      <source src="audio/Nokia Startup.mp3" type="audio/mp3">
+
+    </audio>
+
+    <!-- <audio src="audio/Nokia Startup.mp3" autoplay id="startupAudio" style="display: none;"> -->
+
+    
+
+    <script src="js/bootstrap.bundle.js"></script>
+    <script>
+
+      function scrollFunction() {
+        if (
+          document.body.scrollTop > 100 ||
+          document.documentElement.scrollTop > 100
+        ) {
+          toTopButton.style.display = "block";
+        } else {
+          toTopButton.style.display = "none";
+        }
+      }
+
+      var topbutton = document.getElementById("toTopButton");
+      function gotoTop() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+
+      document.addEventListener("DOMContentLoaded", init);
+      function init() {
+        let query = window.matchMedia("(max-width: 601px)");
+        if (query.matches) {
+          toTopButton.style.display = "block";
+        } else {
+          toTopButton.style.display = "none";
+        }
+      }
+
+      const checkbox = document.getElementById("checkbox");
+      checkbox.addEventListener("change", function () {
+        document.body.classList.toggle("dark");
+      });
+    </script>
+  </body>
+</html>
